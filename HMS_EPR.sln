@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Web", "HMS.Web\HMS.Web.csproj", "{0C963F85-1497-4465-9791-AD0BAD53836C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Models", "HMS.Models\HMS.Models.csproj", "{6BCB63D8-2A6D-4B6B-8BB7-324D5DF296AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Services", "HMS.Services\HMS.Services.csproj", "{160C2F55-21FB-4B9F-9A54-A2A13BC4334D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Repositories", "HMS.Repositories\HMS.Repositories.csproj", "{E1919A62-70F2-4AE9-82CC-C3D5328AAE1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.ViewModels", "HMS.ViewModels\HMS.ViewModels.csproj", "{C701CA0D-10D4-48F9-ACCE-17ECD59C1BC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Utilities", "HMS.Utilities\HMS.Utilities.csproj", "{EA62CA43-18FD-4691-A04B-EC87A670169A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.DB", "HMS.DB\HMS.DB.csproj", "{7A23D806-6C37-4E9A-877C-29D63BD4F831}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C963F85-1497-4465-9791-AD0BAD53836C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C963F85-1497-4465-9791-AD0BAD53836C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C963F85-1497-4465-9791-AD0BAD53836C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C963F85-1497-4465-9791-AD0BAD53836C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BCB63D8-2A6D-4B6B-8BB7-324D5DF296AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCB63D8-2A6D-4B6B-8BB7-324D5DF296AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCB63D8-2A6D-4B6B-8BB7-324D5DF296AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCB63D8-2A6D-4B6B-8BB7-324D5DF296AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160C2F55-21FB-4B9F-9A54-A2A13BC4334D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160C2F55-21FB-4B9F-9A54-A2A13BC4334D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160C2F55-21FB-4B9F-9A54-A2A13BC4334D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160C2F55-21FB-4B9F-9A54-A2A13BC4334D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1919A62-70F2-4AE9-82CC-C3D5328AAE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1919A62-70F2-4AE9-82CC-C3D5328AAE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1919A62-70F2-4AE9-82CC-C3D5328AAE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1919A62-70F2-4AE9-82CC-C3D5328AAE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C701CA0D-10D4-48F9-ACCE-17ECD59C1BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C701CA0D-10D4-48F9-ACCE-17ECD59C1BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C701CA0D-10D4-48F9-ACCE-17ECD59C1BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C701CA0D-10D4-48F9-ACCE-17ECD59C1BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA62CA43-18FD-4691-A04B-EC87A670169A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA62CA43-18FD-4691-A04B-EC87A670169A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA62CA43-18FD-4691-A04B-EC87A670169A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA62CA43-18FD-4691-A04B-EC87A670169A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A23D806-6C37-4E9A-877C-29D63BD4F831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A23D806-6C37-4E9A-877C-29D63BD4F831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A23D806-6C37-4E9A-877C-29D63BD4F831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A23D806-6C37-4E9A-877C-29D63BD4F831}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EB03B32-39C9-4CA0-8450-D4DA27B89FA5}
+	EndGlobalSection
+EndGlobal
